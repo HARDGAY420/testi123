@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>This is a test file</title>
+    <h1 id="header">HUMAN VS. AI</h1>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="script.js"></script>
+    <meta charset="utf-8"/>
+
+  </head>
+
+  <body onload="start()">
+    <p id="testiteksti">Human starts!</p>
+    <div class="ruutu_container">
+        <div class="ruutu" id="1" onclick="make_a_move(1)"></div>
+        <div class="ruutu" id="2" onclick="make_a_move(2)"></div>
+        <div class="ruutu" id="3" onclick="make_a_move(3)"></div>
+        <div class="ruutu" id="4" onclick="make_a_move(4)"></div>
+        <div class="ruutu" id="5" onclick="make_a_move(5)"></div>
+        <div class="ruutu" id="6" onclick="make_a_move(6)"></div>
+        <div class="ruutu" id="7" onclick="make_a_move(7)"></div>
+        <div class="ruutu" id="8" onclick="make_a_move(8)"></div>
+        <div class="ruutu" id="9" onclick="make_a_move(9)"></div>
+    </div>
+    <input id="clearButton" type="button" value="CLEAR" onclick="start();" />
+
+  </body>
+</html>

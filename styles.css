@@ -1,0 +1,38 @@
+#clearButton {
+  position: absolute;
+  left: 44%;
+}
+
+h1 {
+  font-family: verdana;
+  text-align: center;
+}
+
+p {
+  font-family: verdana;
+  text-align: center;
+}
+
+.ruutu_container {
+  display: flex;                       /* establish flex container */
+  flex-wrap: wrap;                     /* enable flex items to wrap */
+  justify-content: space-around;
+
+
+}
+.ruutu {
+  flex: 0 0 32%;                       /* don't grow, don't shrink, width */
+  height: 80px;
+  margin-bottom: 5px;
+  background-color: #999;
+  text-align: center;
+  font-size: 400%;
+  font-family: verdana;
+  font-weight: bold;
+  border-radius: 5px;
+
+
+}
+.cell:nth-child(3n) {
+  background-color: #F00;
+}
